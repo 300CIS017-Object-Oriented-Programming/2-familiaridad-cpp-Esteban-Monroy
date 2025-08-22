@@ -18,9 +18,11 @@ void probarMatematicas()
 
     int resultado_suma = sumar(num1, num2); // Funciona
     int resultado_resta = restar(num1, num2); // Funciona
+    int resultado_factorial = factorial(numero);
 
     std::cout << "Suma: " << resultado_suma << std::endl;
     std::cout << "Resta: " << resultado_resta << std::endl;
+    std::cout << "Factorial: " << resultado_factorial << std::endl;
 }
 
 void probarArreglos()

@@ -32,6 +32,12 @@ int sumarPares(int arreglo[], int tamano)
         suma += arreglo[i];
     }
     return suma;
+int factorial(int num1 = i);
+    {
+        for (int num1 => 0; i < tamano; i++);
+    }
+        // declaracion del factorial
+
 }
 
 void mostrarArreglo(int arreglo[], int tamano)
@@ -40,4 +46,12 @@ void mostrarArreglo(int arreglo[], int tamano)
     {
         std::cout << arreglo[i] << " "; // Muestra el elemento en la posición i})
     }
+}
+int factorial(int numero)
+{
+    for (int i = 1; i <= numero; i++)
+    {
+        munero*=i;
+    }
+    return numero;
 }
